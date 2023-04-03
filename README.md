@@ -22,7 +22,7 @@ This opens up an interactive shell in the docker. Then, run
 - `mkdir out`
 - `time ./par.sh 0.5 data/candidate_dicut.txt`
 
-Where `0.5` should be replaced with the ratio to be verified and `candidate_dicut.txt` can also be `candidate_2and.txt`
+Where `0.5` should be replaced with the ratio to be verified and `candidate_dicut.txt` can also be `candidate_2and.txt` (or `improved_dicut.txt` and `improved_2and.txt`)
 
 **Distribution File Format**
 
