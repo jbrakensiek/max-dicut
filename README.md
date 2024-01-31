@@ -4,8 +4,6 @@ Separating MAX 2-AND, MAX DI-CUT and MAX CUT by Joshua Brakensiek, Neng Huang, A
 
 -----
 
-See Documentation.md for information about the C code.
-
 **Running in Docker**
 
 To run this in docker, first install docker:
@@ -19,6 +17,11 @@ Then, try the following in a terminal (cross-platform):
 
 This opens up an interactive shell in the docker. Then, run
 
+- `pacman -Syu gcc make flint parallel`
+
+to install dependencies. Now, run
+
+- `make`
 - `mkdir out`
 - `time ./par.sh 0.5 data/candidate_dicut.txt`
 
