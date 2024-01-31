@@ -6,6 +6,12 @@ The `src` directory contains C++ wrappers for arb functions and utility function
 
 The `experiment` directory contains the main file `dicut.cpp` for rigorous verification of the approximation ratio of rounding schemes. 
 
+The `python` directory has code that was used to discover the rounding schemes. It is independent of interval arithmetic code.
+
+-----
+
+A short description of `dicut.cpp`:
+
 ```c++
 class Linear_scheme 
 ```
@@ -44,5 +50,3 @@ int main(int argc, char* argv[])
 Reads the input and starts the checking on each region, whose endpoints are defined by the breakpoints of the rounding scheme. If the check fails, then the assertion `assert(good)` near the end of the function will fail; otherwise, the function exits normally.
 
 
-
-The `python` directory has code that was used to discover the rounding schemes. It is independent of interval arithmetic code.
