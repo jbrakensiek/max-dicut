@@ -21,6 +21,7 @@ This opens up an interactive shell in the docker. Then, run
 
 to install dependencies. Now, run
 
+- `mkdir bin`
 - `make`
 - `mkdir out`
 - `time ./par.sh 0.5 data/candidate_dicut.txt`
